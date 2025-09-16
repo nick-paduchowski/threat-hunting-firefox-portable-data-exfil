@@ -84,6 +84,8 @@ DeviceFileEvents
 | where FileName has_any ("confidential-q3-plans", ".zip")
 | project TimeGenerated, FileName, FolderPath, DeviceName, InitiatingProcessAccountName
 
+```
+
 ✍️ Created By:
 
 Author Name: Nicholas Paduchowski
