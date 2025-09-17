@@ -35,15 +35,15 @@ An internal user downloaded **Firefox Portable** and used it to **access unautho
 ## 📊 Tables Used to Detect IoCs:
 
 ### DeviceFileEvents
-- **Info**: [DeviceFileEvents docs](https://learn.microsoft.com/en-us/defender-xdr/advanced-hunting-devicefileevents-table)
+- **Info**: [DeviceFileEvents](https://learn.microsoft.com/en-us/defender-xdr/advanced-hunting-devicefileevents-table)
 - **Purpose**: Detect download and creation of Firefox Portable files and sensitive docs.
 
 ### DeviceProcessEvents
-- **Info**: [DeviceProcessEvents docs](https://learn.microsoft.com/en-us/defender-xdr/advanced-hunting-deviceprocessevents-table)
+- **Info**: [DeviceProcessEvents](https://learn.microsoft.com/en-us/defender-xdr/advanced-hunting-deviceprocessevents-table)
 - **Purpose**: Detect running of portable Firefox process, including from unusual locations.
 
 ### DeviceNetworkEvents
-- **Info**: [DeviceNetworkEvents docs](https://learn.microsoft.com/en-us/defender-xdr/advanced-hunting-devicenetworkevents-table)
+- **Info**: [DeviceNetworkEvents](https://learn.microsoft.com/en-us/defender-xdr/advanced-hunting-devicenetworkevents-table)
 - **Purpose**: Detect Firefox making connections to suspicious domains (mega.nz, etc.)
 
 ---
